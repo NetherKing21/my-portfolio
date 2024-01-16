@@ -10,7 +10,7 @@ website:
 
   page-footer: 
     border: true
-    left: "Your_Name 2023©"
+    left: "Brayden McAllister 2024©"
     right: 
       - icon: linkedin
         href: Your_LinkedIn_URL
@@ -21,18 +21,18 @@ website:
     right:
       - text: "Home"
         file: index.qmd
-      - text: "Data Cleansing"
+      - text: "About Me"
         file: cleansing.qmd
-      - text: "Data Exploration"
+      - text: "Projects"
         file: exploration.qmd
-      - text: "Story Telling"
+      - text: "Resume"
         file: story_telling.qmd
-      - text: "Machine Learning"
-        file: ml.qmd
-      - text: "Full Stack"
-        file: full_stack.qmd
-      - text: "Competition"
-        file: competition.qmd
+      # - text: "Machine Learning"
+      #   file: ml.qmd
+      # - text: "Full Stack"
+      #   file: full_stack.qmd
+      # - text: "Competition"
+      #   file: competition.qmd
       
   # sidebar:
   #   - title: "Match_Name_in_Navbar_Above"
