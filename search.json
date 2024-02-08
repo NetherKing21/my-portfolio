@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "resume.html#title-2-header",
-    "href": "resume.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "index.html#title-2-header",
-    "href": "index.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "ignore/full_stack.html",
-    "href": "ignore/full_stack.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "ignore/full_stack.html#title-2-header",
-    "href": "ignore/full_stack.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
     "objectID": "aboutme.html",
     "href": "aboutme.html",
     "title": "about me",
@@ -70,15 +28,15 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "ignore/ml.html",
-    "href": "ignore/ml.html",
+    "objectID": "ignore/full_stack.html",
+    "href": "ignore/full_stack.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "ignore/ml.html#title-2-header",
-    "href": "ignore/ml.html#title-2-header",
+    "objectID": "ignore/full_stack.html#title-2-header",
+    "href": "ignore/full_stack.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
@@ -93,6 +51,48 @@
   {
     "objectID": "projects.html#title-2-header",
     "href": "projects.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "index.html#title-2-header",
+    "href": "index.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "ignore/ml.html",
+    "href": "ignore/ml.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "ignore/ml.html#title-2-header",
+    "href": "ignore/ml.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "resume.html#title-2-header",
+    "href": "resume.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
