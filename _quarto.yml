@@ -13,7 +13,7 @@ website:
     left: "Brayden McAllister 2024©"
     right: 
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: https://www.linkedin.com/in/brayden-mcallister/
 
   navbar:
     background: primary
