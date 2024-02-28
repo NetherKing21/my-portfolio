@@ -30,6 +30,7 @@ execute:
 #| include: false
 import pandas as pd 
 import numpy as np
+import plotly.express as px
 import sqlite3
 
 # %%
