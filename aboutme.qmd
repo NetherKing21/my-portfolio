@@ -4,8 +4,7 @@ subtitle: "my data science portfolio"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+# Introduction
+Hello, my name is Brayden McAllister and welcome to my portfolio. To introduce myself I am twienty-one years old and I am from California. Currently I am a Sophmore at BYUI majoring in Computer Sceince. I enjoy reading, video games and the random odd activity.
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
 

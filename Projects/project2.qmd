@@ -25,9 +25,6 @@ execute:
     
 ---
 
-### Uncomment the entire section to use this template
-
-
 ```{python}
 #| label: libraries
 #| include: false
