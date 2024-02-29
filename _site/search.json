@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "my resume",
     "section": "",
-    "text": "Resume\n\n\n\n\n Back to top"
+    "text": "Brayden McAllister (530) 703 0064 | mca23001@byui.edu | www.linkedin.com/in/brayden mcallister\n\n\n\n\nComputer Science - Rexburg, ID\n\n4.0 GPA\nPrograming with Functions (Python), Intro to Databases (SQL), Web Fundamental (HTML/CSS)\nParticipates in the Computing Society, Cybersecurity Society, and Data Science Society\n\n\n\n\n\nBYUI Newspaper Article (Ongoing) - Led a group of 4 in research, data analysis, and data visualization for the creation of an article for the BYUI Scroll Page\nI-Hack - Organized and Led a team of 4 through designing and developing a working app (React-Native)\n\n\n\n\n\nFull Time Volunteer Barranquilla, Colombia\n\nReceived and Trained new missionaries in Spanish and what to teach in preparation for working independently\nListened and Responded to the needs and questions of others\nManaged time and scheduled daily to conserve productivity\n\n\n\n\nEvent Coordinator Quincy, CA\n\nPlanned multiple Blood Drives during school year to receive life-saving blood donations\nCoordinated with school to reserve gym and equipment needed for Blood Drive\nOrganized and Recruited volunteers to donate\n\n\n\n\n\n\n\nCashier Quincy, CA\n\nEngaged with customers daily, listening and meeting needs\nCooperated with others to maintain order and cleanliness\n\n\n\n\n\nProgramming Languages: Python, SQL, HTML, CSS, React-Native Language: English (Native), Spanish (Fluent) Fast Learner, Adaptable, Team-player"
   },
   {
     "objectID": "resume.html#title-2-header",
@@ -106,7 +106,7 @@
     "href": "Projects/project3.html",
     "title": "Client Report - Finding Relationships in Baseball (Project 3)",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\nHighlight the Questions and Tasks",
     "crumbs": [
       "Projects",
       "Project 3"
@@ -117,7 +117,7 @@
     "href": "Projects/project3.html#elevator-pitch",
     "title": "Client Report - Finding Relationships in Baseball (Project 3)",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\nHighlight the Questions and Tasks",
     "crumbs": [
       "Projects",
       "Project 3"
@@ -128,7 +128,7 @@
     "href": "Projects/project3.html#questiontask-1",
     "title": "Client Report - Finding Relationships in Baseball (Project 3)",
     "section": "QUESTION|TASK 1",
-    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n::: {#cell-Q1 chart .cell execution_count=4}\n\nplot example\n# Include and execute your code here\nchart = px.bar(df.head(200),\n    x=\"name\", \n    y=\"AK\"\n)\nchart.show()\n\n\n                                                \nMy useless chart\n\n:::\n::: {#cell-Q1 table .cell .tbl-cap-location-top tbl-cap=‘Not much of a table’ execution_count=5}\n\ntable example\n# Include and execute your code here\nmydat = df.head(1000)\\\n    .groupby('year')\\\n    .sum()\\\n    .reset_index()\\\n    .tail(10)\\\n    .filter([\"year\", \"AK\",\"AR\"])\n\ndisplay(mydat)\n\n\n\n\n\n\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0\n\n\n\n\n\n\n:::",
+    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\ntype your results and analysis here\n#| label: Q1\n#| code-summary: Read and format data\n# Include and execute your code here\nSELECT DISTINCT playerID, schoolID, salary, yearID, teamID\nFROM \nLEFT JOIN",
     "crumbs": [
       "Projects",
       "Project 3"
@@ -139,7 +139,7 @@
     "href": "Projects/project3.html#questiontask-2",
     "title": "Client Report - Finding Relationships in Baseball (Project 3)",
     "section": "QUESTION|TASK 2",
-    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\nWrite an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\nUse the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nNow calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n::: {#cell-Q2 chart .cell execution_count=7}\n\nplot example\n# Include and execute your code here\nchart = px.bar(df.head(200),\n    x=\"name\", \n    y=\"AK\"\n)\nchart.show()\n\n\n                                                \nMy useless chart\n\n:::\n::: {#cell-Q2 table .cell .tbl-cap-location-top tbl-cap=‘Not much of a table’ execution_count=8}\n\ntable example\n# Include and execute your code here\nmydat = df.head(1000)\\\n    .groupby('year')\\\n    .sum()\\\n    .reset_index()\\\n    .tail(10)\\\n    .filter([\"year\", \"AK\",\"AR\"])\n\ndisplay(mydat)\n\n\n\n\n\n\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0\n\n\n\n\n\n\n:::",
+    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\nA. Write an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\nB. Use the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nC. Now calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# #| fig-align: center\n# # Include and execute your code here\n# chart = px.bar(df.head(200),\n#     x=\"name\", \n#     y=\"AK\"\n# )\n# chart.show()\n\n\n\n\ntable example\n# #| tbl-cap: \"Not much of a table\"\n# #| tbl-cap-location: top\n# # Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)",
     "crumbs": [
       "Projects",
       "Project 3"
@@ -150,7 +150,7 @@
     "href": "Projects/project3.html#questiontask-3",
     "title": "Client Report - Finding Relationships in Baseball (Project 3)",
     "section": "QUESTION|TASK 3",
-    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n::: {#cell-Q3 chart .cell execution_count=10}\n\nplot example\n# Include and execute your code here\nchart = px.bar(df.head(200),\n    x=\"name\", \n    y=\"AK\"\n)\nchart.show()\n\n\n                                                \nMy useless chart\n\n:::\n::: {#cell-Q3 table .cell .tbl-cap-location-top tbl-cap=‘Not much of a table’ execution_count=11}\n\ntable example\n# Include and execute your code here\nmydat = df.head(1000)\\\n    .groupby('year')\\\n    .sum()\\\n    .reset_index()\\\n    .tail(10)\\\n    .filter([\"year\", \"AK\",\"AR\"])\n\ndisplay(mydat)\n\n\n\n\n\n\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0\n\n\n\n\n\n\n:::",
+    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n# chart = px.bar(df.head(200),\n#     x=\"name\", \n#     y=\"AK\"\n# )\n# chart.show()\n\n\n\n\ntable example\n# Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)",
     "crumbs": [
       "Projects",
       "Project 3"
@@ -188,5 +188,40 @@
       "Projects",
       "DS250 Projects"
     ]
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "my resume",
+    "section": "",
+    "text": "Computer Science - Rexburg, ID\n\n4.0 GPA\nPrograming with Functions (Python), Intro to Databases (SQL), Web Fundamental (HTML/CSS)\nParticipates in the Computing Society, Cybersecurity Society, and Data Science Society"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "my resume",
+    "section": "",
+    "text": "BYUI Newspaper Article (Ongoing) - Led a group of 4 in research, data analysis, and data visualization for the creation of an article for the BYUI Scroll Page\nI-Hack - Organized and Led a team of 4 through designing and developing a working app (React-Native)"
+  },
+  {
+    "objectID": "resume.html#volunteer-experience",
+    "href": "resume.html#volunteer-experience",
+    "title": "my resume",
+    "section": "",
+    "text": "Full Time Volunteer Barranquilla, Colombia\n\nReceived and Trained new missionaries in Spanish and what to teach in preparation for working independently\nListened and Responded to the needs and questions of others\nManaged time and scheduled daily to conserve productivity\n\n\n\n\nEvent Coordinator Quincy, CA\n\nPlanned multiple Blood Drives during school year to receive life-saving blood donations\nCoordinated with school to reserve gym and equipment needed for Blood Drive\nOrganized and Recruited volunteers to donate"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "my resume",
+    "section": "",
+    "text": "Cashier Quincy, CA\n\nEngaged with customers daily, listening and meeting needs\nCooperated with others to maintain order and cleanliness"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "my resume",
+    "section": "",
+    "text": "Programming Languages: Python, SQL, HTML, CSS, React-Native Language: English (Native), Spanish (Fluent) Fast Learner, Adaptable, Team-player"
   }
 ]

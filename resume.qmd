@@ -5,3 +5,52 @@ subtitle: "my portfolio"
 
 # Resume
 
+Brayden McAllister
+(530) 703 0064 | mca23001@byui.edu | www.linkedin.com/in/brayden mcallister
+
+## Education
+	
+### Brigham Young University - Idaho    December 2025
+	
+Computer Science - Rexburg, ID
+
+* 4.0 GPA
+* Programing with Functions (Python), Intro to Databases (SQL), Web Fundamental (HTML/CSS)
+* Participates in the Computing Society, Cybersecurity Society, and Data Science Society
+ 
+## Projects
+BYUI Newspaper Article (Ongoing) - Led a group of 4 in research, data analysis, and data visualization for the creation of an article for the BYUI Scroll Page
+
+I-Hack - Organized and Led a team of 4 through designing and developing a working app (React-Native)
+ 
+## Volunteer Experience
+
+### The Church of Jesus Christ of Latter-day Saints    May 2021 - June 2023
+	
+Full Time Volunteer	Barranquilla, Colombia
+
+* Received and Trained new missionaries in Spanish and what to teach in preparation for working independently
+* Listened and Responded to the needs and questions of others
+* Managed time and scheduled daily to conserve productivity
+	
+### Highschool Blood Drive    September 2017 - July 2019
+	
+Event Coordinator   Quincy, CA
+
+* Planned multiple Blood Drives during school year to receive life-saving blood donations
+* Coordinated with school to reserve gym and equipment needed for Blood Drive
+* Organized and Recruited volunteers to donate
+ 
+## Experience
+
+### Safeway    July 2023 - October 2023
+Cashier     Quincy, CA
+
+* Engaged with customers daily, listening and meeting needs
+* Cooperated with others to maintain order and cleanliness
+ 
+## Skills
+
+Programming Languages: Python, SQL, HTML, CSS, React-Native
+Language: English (Native), Spanish (Fluent)
+Fast Learner, Adaptable, Team-player
