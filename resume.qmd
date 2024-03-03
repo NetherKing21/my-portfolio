@@ -1,12 +1,13 @@
 ---
-title: "my resume"
-subtitle: "my portfolio"
+title: "Skills and Experiece"
+subtitle: "Resume and Background"
 ---
 
 # Resume
 
 Brayden McAllister
 (530) 703 0064 | mca23001@byui.edu | www.linkedin.com/in/brayden mcallister
+The mighty creator of the world renowned IcePick app. 
 
 ## Education
 	
